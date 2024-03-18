@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(https://f.vividscreen.info/soft/debdf6e632bdea98c29619bf830b24e5/Pixel-Art-wide-i.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    padding: 5px;
+    background-color: #B7A6F6;
+}
+
+.board {
+    justify-content: center;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 2px;
+}
+
+.cell {
+    border: 3px dotted#FC8DCA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
